@@ -29,28 +29,23 @@
 .wrap {
     position: relative;
     z-index: 1;
-    display: flex;
-    justify-content: space-around;
-    flex-direction: column;
-    height: 70vh;
+    margin-bottom: 300px;
 }
 
 .header {
     font-size: 68px;
     letter-spacing: 1px;
     color: purple;
+    margin-bottom: 0;
 
 }
 
 .description {
-    color: pink;
+    color: plum;
     font-size: 40px;
     line-height: 1.55;
+    margin-top: 0;
 }
-.logoReact {
-    height: 50px;
-}
-
 }
 
 
