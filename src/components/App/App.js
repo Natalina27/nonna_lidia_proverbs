@@ -1,13 +1,20 @@
 import React from 'react';
-import './App.module.css';
-import Header from './Header/Header';
+import HeaderBlock from './Header/HeaderBlock';
 import Footer from './Footer/Footer';
-import s from './App.module.css';
+import s from './App.module.scss';
 
 function App() {
     return (
         <div className={s.root}>
-            <Header/>
+            <HeaderBlock
+                title='PROVERBI DI NONNA LIDIA'
+                desc='I proverbi della mia nonna in dialetto di San Gregorio'
+            />
+            <HeaderBlock
+                title='PROVERBI:'
+                hideBackground
+
+            />
             <Footer/>
         </div>
     );
