@@ -9,8 +9,10 @@ const HeaderBlock = ({title, desc, hideBackground = false}) => {
     return (
         <div className={s.cover} style={styleCover}>
             <div className={s.wrap}>
-                <h1 className={s.header}>{title}</h1>
-                <p className={s.description}>{desc}</p>
+                {/*<h1 className={s.header}>{title}</h1>*/}
+                {/*<p className={s.description}>{desc}</p>*/}
+                {title && <h1 className={s.header}>{title}</h1>}
+                {desc && <p className={s.description}>{desc}</p>}
             </div>
         </div>
 
