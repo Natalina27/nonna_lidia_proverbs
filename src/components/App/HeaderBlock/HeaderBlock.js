@@ -4,7 +4,8 @@ import {ReactComponent as ReactLogoSVg} from '../../../assets/logo.svg';
 
 console.log('###ReactLogoSVg: ', ReactLogoSVg);
 
-const HeaderBlock = ({title, desc, hideBackground = false}) => {
+const HeaderBlock = ({title, desc, hideBackground = false, children}) => {
+
     const styleCover = hideBackground ? { background: 'none'} : {};
     return (
         <div className={s.cover} style={styleCover}>
@@ -13,6 +14,7 @@ const HeaderBlock = ({title, desc, hideBackground = false}) => {
                 {/*<p className={s.description}>{desc}</p>*/}
                 {title && <h1 className={s.header}>{title}</h1>}
                 {desc && <p className={s.description}>{desc}</p>}
+                {children}
             </div>
         </div>
 
