@@ -42,11 +42,8 @@ function App() {
                     proverbs.map(({prov,name}) => <Card prov={prov} name={name} />)
                 }
             </div>
-            <HeaderBlock hideBackground>
-                <Header>
-                    PROVERBI:
-                </Header>
-                <Paragraph>
+            <HeaderBlock hideBackground centerWrap>
+                <Paragraph >
                     "CHI A FATTO I PROVERBI HA FATTO PRIMA L'ESPERIENZA"
                 </Paragraph>
             </HeaderBlock>
