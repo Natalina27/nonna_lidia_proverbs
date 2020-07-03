@@ -16,11 +16,14 @@ function App() {
                     I proverbi della mia nonna in dialetto di San Gregorio
                 </Paragraph>
             </HeaderBlock>
-            <HeaderBlock
-                title='PROVERBI:'
-                hideBackground
-
-            />
+            <HeaderBlock hideBackground>
+                <Header>
+                    PROVERBI:
+                </Header>
+                <Paragraph>
+                    I proverbi di nonna Lidia
+                </Paragraph>
+            </HeaderBlock>
             <Footer/>
         </div>
     );
