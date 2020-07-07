@@ -37,7 +37,7 @@ function App() {
                     I proverbi della mia nonna in dialetto di San Gregorio
                 </Paragraph>
             </HeaderBlock>
-            <div>
+            <div className={s.flex}>
                 {
                     proverbs.map(({prov,name}) => <Card prov={prov} name={name} />)
                 }
