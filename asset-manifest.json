@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/nonna_lidia_proverbs/static/css/main.7a820a41.chunk.css",
+    "main.js": "/nonna_lidia_proverbs/static/js/main.812c26ca.chunk.js",
+    "main.js.map": "/nonna_lidia_proverbs/static/js/main.812c26ca.chunk.js.map",
+    "runtime-main.js": "/nonna_lidia_proverbs/static/js/runtime-main.648fa088.js",
+    "runtime-main.js.map": "/nonna_lidia_proverbs/static/js/runtime-main.648fa088.js.map",
+    "static/js/2.0b692a93.chunk.js": "/nonna_lidia_proverbs/static/js/2.0b692a93.chunk.js",
+    "static/js/2.0b692a93.chunk.js.map": "/nonna_lidia_proverbs/static/js/2.0b692a93.chunk.js.map",
+    "index.html": "/nonna_lidia_proverbs/index.html",
+    "precache-manifest.7a9ce57f935253dd2ef41281005be78a.js": "/nonna_lidia_proverbs/precache-manifest.7a9ce57f935253dd2ef41281005be78a.js",
+    "service-worker.js": "/nonna_lidia_proverbs/service-worker.js",
+    "static/css/main.7a820a41.chunk.css.map": "/nonna_lidia_proverbs/static/css/main.7a820a41.chunk.css.map",
+    "static/js/2.0b692a93.chunk.js.LICENSE.txt": "/nonna_lidia_proverbs/static/js/2.0b692a93.chunk.js.LICENSE.txt",
+    "static/media/App.module.scss": "/nonna_lidia_proverbs/static/media/background-body.dab428e7.jpg",
+    "static/media/logo.5d5d9eef.svg": "/nonna_lidia_proverbs/static/media/logo.5d5d9eef.svg",
+    "static/media/HeaderBlock.module.scss": "/nonna_lidia_proverbs/static/media/nonnaeSophie.520a4a2e.jpeg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.648fa088.js",
+    "static/js/2.0b692a93.chunk.js",
+    "static/css/main.7a820a41.chunk.css",
+    "static/js/main.812c26ca.chunk.js"
+  ]
+}
