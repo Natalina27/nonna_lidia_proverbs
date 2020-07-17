@@ -8,7 +8,7 @@
   height: 100px;
   width: 150px;
 
-  &:hover {
+  &.done {
     .cardInner {
       transform: rotateY(180deg);
 
